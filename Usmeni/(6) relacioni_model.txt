@@ -132,13 +132,13 @@ RELACIONI MODEL PODATAKA
 			- Seljackim jezikom, isto sto sam napisao za restriktovanu torku, samo sto ovo vazi ne samo za jednu torku, nego za sve torke
 			  iz relacije.
 	
-		- Prirodni spoj relacija 
+		- Prirodni spoj relacija - natural join, ako nema zajednickih kolona -> Dekartov proizvod
 			- Spajanje torki iz razlicitih relacija na osnovu istih ZAJEDNICKIH obelezja 
 				Tipa ako imamo u 2 tabele/relacije nesto poput 
 				a1 b1 c1  		e1 g1 b1
 				To mozemo da iskombinujemo u 
 				a1 b1 c1 g1 e1
-		- Dekartov proizvod relacija 
+		- Dekartov proizvod relacija - cross join 
 			- Spajanje kada formiramo sve moguce kombinacije torki iz 2 relacije 
 		- Theta spajanje
 			- Spajanje torki po nekom kriterijumu
